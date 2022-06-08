@@ -10241,6 +10241,46 @@ footer p {
   box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.5);
 }
 
+.page-success .row-login {
+  min-height: 75vh;
+}
+.page-success .section-success h2 {
+  font-size: 24px;
+  font-weight: 200;
+  color: #0c0d36;
+  margin-top: 0;
+}
+.page-success .section-success .btn-signup {
+  color: #212529;
+  background-color: #f3f3f3;
+  border-color: transparent;
+  color: #bbb;
+}
+.page-success .section-success .btn-signup:hover {
+  color: #212529;
+  background-color: #e0e0e0;
+  border-color: rgba(0, 0, 0, 0);
+}
+.page-success .section-success .btn-signup:focus, .page-success .section-success .btn-signup.focus {
+  color: #212529;
+  background-color: #e0e0e0;
+  border-color: rgba(0, 0, 0, 0);
+  box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
+}
+.page-success .section-success .btn-signup.disabled, .page-success .section-success .btn-signup:disabled {
+  color: #212529;
+  background-color: #f3f3f3;
+  border-color: transparent;
+}
+.page-success .section-success .btn-signup:not(:disabled):not(.disabled):active, .page-success .section-success .btn-signup:not(:disabled):not(.disabled).active, .show > .page-success .section-success .btn-signup.dropdown-toggle {
+  color: #212529;
+  background-color: #dadada;
+  border-color: rgba(0, 0, 0, 0);
+}
+.page-success .section-success .btn-signup:not(:disabled):not(.disabled):active:focus, .page-success .section-success .btn-signup:not(:disabled):not(.disabled).active:focus, .show > .page-success .section-success .btn-signup.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(33, 37, 41, 0.5);
+}
+
 .slide-fade-enter-active {
   transition: all 0.2s ease;
 }
