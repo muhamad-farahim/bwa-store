@@ -10139,6 +10139,20 @@ footer p {
   color: #0c0d36;
 }
 
+.card-dashboard-product {
+  margin-bottom: 15px;
+}
+.card-dashboard-product .card-body .product-title {
+  font-weight: normal;
+  font-size: 18px !important;
+  color: #0c0d36 !important;
+}
+.card-dashboard-product .card-body .product-category {
+  font-weight: normal;
+  font-size: 16px;
+  color: #c5c5c5;
+}
+
 .page-home h5 {
   font-weight: 300;
   margin-bottom: 15px;
