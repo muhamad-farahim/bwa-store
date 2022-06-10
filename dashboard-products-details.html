@@ -187,22 +187,11 @@
                                 ></textarea>
                               </div>
                             </div>
-                            <div class="col-12">
-                              <div class="form-group">
-                                <label for="">Thumbnails</label>
-                                <input
-                                  type="file"
-                                  name=""
-                                  id=""
-                                  class="form-control"
-                                />
-                              </div>
-                            </div>
                           </div>
                           <div class="row mt-4">
                             <div class="col-12">
                               <div class="text-right">
-                                <button class="btn btn-success px-5">
+                                <button class="btn btn-success btn-block px-5">
                                   Save Now
                                 </button>
                               </div>
@@ -211,6 +200,66 @@
                         </div>
                       </div>
                     </form>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-12">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col-md-4">
+                            <div class="gallery-container">
+                              <img
+                                src="images/product-card-1.png"
+                                alt=""
+                                class="w-100"
+                              />
+                              <a href="#" class="delete-gallery"
+                                ><img src="images/icon-delete.svg" alt=""
+                              /></a>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="gallery-container">
+                              <img
+                                src="images/product-card-2.png"
+                                alt=""
+                                class="w-100"
+                              />
+                              <a href="#" class="delete-gallery"
+                                ><img src="images/icon-delete.svg" alt=""
+                              /></a>
+                            </div>
+                          </div>
+                          <div class="col-md-4">
+                            <div class="gallery-container">
+                              <img
+                                src="images/product-card-3.png"
+                                alt=""
+                                class="w-100"
+                              />
+                              <a href="#" class="delete-gallery"
+                                ><img src="images/icon-delete.svg" alt=""
+                              /></a>
+                            </div>
+                          </div>
+                          <div class="col-12">
+                            <input
+                              type="file"
+                              id="file"
+                              style="display: none"
+                              multiple
+                            />
+                            <button
+                              class="btn btn-secondary btn-block mt-3"
+                              onclick="thisFileUpload()"
+                            >
+                              Add photo
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -235,6 +284,11 @@
       });
     </script>
     <script src="https://cdn.ckeditor.com/ckeditor5/34.1.0/classic/ckeditor.js"></script>
+    <script>
+      function thisFileUpload() {
+        document.getElementById("file").click();
+      }
+    </script>
     <script>
       ClassicEditor.create(document.querySelector("#editor"));
     </script>
